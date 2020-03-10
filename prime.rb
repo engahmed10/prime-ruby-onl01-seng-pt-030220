@@ -1,9 +1,9 @@
 def prime?(num)
 
 #prime number dose not accept division except by 1 and  itself .
-   if num < 2
-     false
-   else
+  if num <= 1
+    false
+  else
      i=2
      while i < num
        if num % i == 0
@@ -12,5 +12,5 @@ def prime?(num)
         i += 1
      end
       return true
-   end
+  end
 end
