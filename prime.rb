@@ -1,7 +1,7 @@
 def prime?(num)
 
 #prime number dose not accept division except by 1 and  itself .
-  if num < 0
+  if num =< 0
     false
   else
      i=2
